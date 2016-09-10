@@ -1,0 +1,15 @@
+Para criar as tabelas utilzei os seguintes scripts:
+
+create table tbpost (
+ id int,
+ description varchar(1234),
+ emaiUser varchar(200)
+);
+
+create table tbcomment (
+ description varchar(234),
+ idpost int
+);
+
+por um eventual problema na execucao desses scripts com idetity
+um metodo getid foi criado na dao e usado pela propria dao no metodo insert
